@@ -13,6 +13,7 @@ apply plugin: 'maven'
 
 repositories {
     mavenCentral()
+    jcenter()
     maven { url 'http://repo.jenkins-ci.org/releases/' }
 }
 
